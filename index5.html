@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💪 BMI Calculator</h1>
+
+        <div class="form-group">
+            <label>Age</label>
+            <div class="input-wrapper">
+                <input type="number" id="age" value="">
+                <span class="hint">ages: 2 - 120</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="gender" value="male" checked>
+                    <span>Male</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Height</label>
+            <div class="input-wrapper">
+                <input type="number" id="height" placeholder="180">
+                <span class="unit">cm</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Weight</label>
+            <div class="input-wrapper">
+                <input type="number" id="weight" placeholder="65">
+                <span class="unit">kg</span>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="calculate-btn" onclick="calculateBMI()">
+                Calculate ▶
+            </button>
+            <button class="clear-btn" onclick="clearForm()">
+                Clear
+            </button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script5.js"></script>
+</body>
+</html>
