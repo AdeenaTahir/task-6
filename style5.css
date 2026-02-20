@@ -6,8 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background:url(Screenshot_2.png);
+    background:url(BMI\ Calculator\ bg.jpg) ;
     display: flex;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     min-height: 100vh;

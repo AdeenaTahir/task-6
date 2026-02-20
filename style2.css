@@ -6,7 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url(Screenshot_48.png);
+    background: url(Hours\ to\ Seconds\ Converter\ bg.avif);
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
